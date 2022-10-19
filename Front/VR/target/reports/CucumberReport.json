@@ -1,0 +1,102 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13728954500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.init()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validar exibi��o na tela o mapa google",
+        "description": "",
+        "id": "visualizar-mapa-google;validar-exibi��o-na-tela-o-mapa-google;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 396423300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que acesse site",
+            "match": {
+              "location": "VrSteps.que_acesse_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4709917600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicar no botao pra voce",
+            "match": {
+              "location": "VrSteps.clicar_no_botao_pra_voce()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 882315500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicar no botao onde usar meu cartao",
+            "match": {
+              "location": "VrSteps.clicar_no_botao_onde_usar_meu_cartao()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3385035300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "visualizo mapa do google na tela \"Osasco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Osasco",
+                  "offset": 34
+                }
+              ],
+              "location": "VrSteps.visualizoMapaDoGoogleNaTela(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@vr"
+          }
+        ]
+      }
+    ],
+    "name": "Visualizar mapa google",
+    "description": "",
+    "id": "visualizar-mapa-google",
+    "keyword": "Funcionalidade",
+    "uri": "test/resources/vr-mapa-google.feature/vr-mapa.feature"
+  }
+]
