@@ -49,5 +49,8 @@ public class Commons {
 		File DestFile = new File("./src/evidencia/" + nome + ".png");
 		FileUtils.copyFile(SrcFile, DestFile);
 	}
+	public void esperarElemento(int valor) throws InterruptedException {
+		Thread.sleep(valor);
+	}
 
 }

@@ -23,6 +23,8 @@ public class VrAction extends Commons {
 
 	public void visualizoMapaGoogle(String cidade) throws Exception {
 		Commons.getInstance().waitForvisibiltyElement(screen.cmpMapaGoogle);
+		Commons.getInstance().esperarElemento(3000);
+		Commons.getInstance().screenShot("buscar");
 		screen.cmpOpenCartaoVr.click();
 		screen.cmpCartaoVrAlimentacao.click();
 		screen.cmpVoltar.click();
